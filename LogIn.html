@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mina yousef" />
+    <title>Mina Page </title>
+    <link rel="stylesheet" href="./css/Headers.css" />
+    <link rel="stylesheet" href="./css/Footer.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+       
+        /*----------------------------------lading-------------------------------*/
+
+        .Landing {
+            height: 781px;
+            margin: 50px 0px 80px 0;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+
+            .Landing .Image {
+                height: 100%;
+                width: 781px;
+            }
+
+        .Image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .InfoLogin {
+            width: 371px;
+            height: 326px;
+            margin-left: 300px;
+        }
+
+            .InfoLogin input {
+                display: block;
+                width: 100%;
+                padding: 15px 0 10px 0;
+                margin: 10px 0 10px 0;
+                border: none;
+                border-bottom: solid black 1px;
+            }
+
+            .InfoLogin button {
+                padding: 20px 40px 20px 40px;
+                margin-top: 40px;
+                background-color: #DB4444;
+                border: none;
+                color: white;
+                border-radius: 10px;
+            }
+
+            .InfoLogin a {
+                color: #DB4444;
+                font-weight: bold;
+                text-decoration: none;
+                margin-left: 100px;
+            }
+       
+    </style>
+</head>
+<body>
+    <header id="Header"></header>
+
+
+    <div class="Landing">
+        <div class="Image"> <img src="public/images\LogIn.jpg" alt="Alternate Text" /></div>
+        <div class="InfoLogin">
+            <h1>Log in to Exclusive</h1>
+            <h5>Enter your details below</h5>
+            <form action="/" method="post">
+                <input type="text" name="username" value="" placeholder="Email or Phone Number" required />
+                <input type="password" name="pass" value="" placeholder="password" required />
+                <button type="submit">Login</button>
+                <a href="#">Forget PAssword?</a>
+            </form>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+    <script src="js/Footer.js"></script>
+    <script src="js/Headers.js"></script>
+
+</body>
+</html>

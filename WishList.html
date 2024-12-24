@@ -1,0 +1,346 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Wish List</title>
+    <link rel="stylesheet" href="./css/Headers.css" />
+    <link rel="stylesheet" href="./css/Footer.css" />
+    <style>
+       .WhisList{
+           display:flex;
+           flex-direction:column;   
+
+       }
+        .Landing { /* Frame 788 */
+            /* Auto layout */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 80px;
+           margin:auto;
+            width: 1170px;
+            height: 984px;
+            left: 135px;
+            top: 222px;
+        }
+        .WhisListItems {
+            /* Frame 778 */
+            /* Auto layout */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 60px;
+            width: 1170px;
+            height: 438px;
+            /* Inside auto layout */
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+        .WhisListJustForYou {
+            /* Frame 787 */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 60px;
+            width: 1170px;
+            height: 466px;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }
+        .div1 { /* Frame 776 */
+            /* Auto layout */
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            gap: 835px;
+            width: 1170px;
+            height: 56px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+            .div1 span {
+                
+
+                width: auto;
+                height: 26px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 26px;
+                text-align: center;
+                color: #000000;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+        .div1 button {
+
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 16px 48px;
+            gap: 10px;
+            width: 223px;
+            height: 56px;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            border-radius: 4px;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            cursor:pointer;
+        }
+        .DisplayItems {
+            display: flex;
+            flex-direction: row;
+            padding: 0px;
+            gap: 20px;
+            width: 1170px;
+            height: 322px;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }/*/////////////////////////////*/
+        .product {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            width: 270px;
+            height: 322px;
+            /* Inside auto layout */
+        }
+        .ContenerImag {
+            /* Cart */
+
+            width: 270px;
+            height: 250px;
+            background: #F5F5F5;
+            border-radius: 4px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            cursor: pointer;
+        }
+        .NameProdect {
+
+            width: auto;
+            height: 24px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+
+            color: #000000;
+            
+        }
+       
+
+        .Stars {
+            color: #FFAD33;
+            font-size: 30px;
+        }
+
+        .product {
+            width: 270px;
+            height: 350px;
+            text-align: center;
+        }
+
+
+            .product .price {
+    
+
+                width: 42px;
+                height: 24px;
+                
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                
+                color: #DB4444;
+
+            }
+            .product img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+
+        .price .old-price {
+            text-decoration: line-through;
+            color: #999;
+            margin-left:15px;
+
+                      
+        }
+
+        .div2 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            gap: 835px;
+            width: 1170px;
+            height: 56px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+        .div3 {
+            /* Frame 785 */
+            /* Auto layout */
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            gap: 16px;
+            width: 156px;
+            height: 40px;
+           
+        }
+            .div3 span {
+
+                width: 120px;
+                height: 26px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 26px;
+                text-align: center;
+                color: #000000;
+                flex: none;
+               
+                flex-grow: 0;
+            }
+        .Squer {
+            width: 20px;
+            height: 40px;
+            background: #DB4444; flex: none;
+            order: 0;
+            flex-grow: 0;
+            border:none;
+            border-radius:5px;
+        }
+        .div2 .SeeAll {
+            /* Button */
+            /* Button */
+
+            box-sizing: border-box;
+            /* Auto layout */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 16px 48px;
+            gap: 10px;
+            width: 150px;
+            height: 56px;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            border-radius: 4px;
+            /* Inside auto layout */
+            flex: none;
+            cursor: pointer;
+            flex-grow: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="WhisList">
+        <header id="Header"></header>
+        <div class="Landing">
+            <div class="WhisListItems">
+                <div class="div1">
+                    <span>Whish List (4)</span>
+                    <button>Move All To Bag</button>
+                </div>
+                <div class="DisplayItems">
+                    <div class="product">
+                        <div class="ContenerImag"> <img src="\image\items\item-7.png" alt="Related Item 1"></div>
+                        <p class="NameProdect">Gucci duffle bag</p>
+                        <p class="price">$990<span class="old-price">$116</span> </p>
+                    </div>
+                    <div class="product">
+                        <div class="ContenerImag"> <img src="public/images/related4.jpg" alt="Related Item 1"></div>
+                        <p class="NameProdect">RGB liquid CPU Cooler</p>
+                        <p class="price">$1960<span class="old-price"></span> </p>
+                    </div>
+                    <div class="product">
+                        <div class="ContenerImag"> <img src="\image\items\item-14.png" alt="Related Item 1"></div>
+                        <p class="NameProdect">GP11 Shooter USB Gamepad</p>
+                        <p class="price">$550<span class="old-price"></span> </p>
+
+                    </div>
+                    <div class="product">
+                        <div class="ContenerImag"> <img src="\image\items\item-15.png" alt="Related Item 1"></div>
+                        <p class="NameProdect">Quilted Satin Jacket</p>
+                        <p class="price">$750<span class="old-price"></span> </p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="WhisListJustForYou">
+                <div class="div2">
+                    <div class="div3">
+                        <div class="Squer"></div>
+                        <span>Just For You </span>
+                    </div>
+                    <button class="SeeAll">See All</button>
+                </div>
+                <div class="DisplayItems">
+                    <div class="product">
+                        <div class="ContenerImag"> <img src="\image\items\item-11.png" alt="Related Item 1"></div>
+                        <p class="NameProdect">Gucci duffle bag</p>
+                        <p class="price">$990<span class="old-price">$116</span> </p>
+                        <span class="Stars">★★★★☆</span>
+
+                    </div>
+                    <div class="product">
+                        <div class="ContenerImag"> <img src="\image\items\item-3.png" alt="Related Item 1"></div>
+                        <p class="NameProdect">RGB liquid CPU Cooler</p>
+                        <p class="price">$1960<span class="old-price"></span> </p>
+                        <span class="Stars">★★★★☆</span>
+
+                    </div>
+                    <div class="product">
+                        <div class="ContenerImag"> <img src="\image\items\item-1.png" alt="Related Item 1"></div>
+                        <p class="NameProdect">GP11 Shooter USB Gamepad</p>
+                        <p class="price">$550<span class="old-price"></span> </p>
+                        <span class="Stars">★★★★☆</span>
+
+                    </div>
+                    <div class="product">
+                        <div class="ContenerImag"> <img src="public/images/related2.jpg" alt="Related Item 1"></div>
+                        <p class="NameProdect">Quilted Satin Jacket</p>
+                        <p class="price">$750<span class="old-price"></span> </p>
+                        <span class="Stars">★★★★☆</span>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <footer id="footer"></footer>
+        <script src="js/Headers.js"></script>
+        <script src="js/Footer.js"></script>
+        
+    </div>
+</body>
+</html>

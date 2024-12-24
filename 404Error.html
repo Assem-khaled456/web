@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found</title>
+    <link rel="stylesheet" href="./css/Headers.css" />
+    <link rel="stylesheet" href="./css/Footer.css" />
+    <style>
+        /*------------------------------------------------*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+           
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+            gap:30px;
+        }
+
+       
+
+            
+
+        h1 {
+            /* 404 Not Found */
+
+            width: 829px;
+           
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 110px;
+            line-height: 115px;
+            letter-spacing: 0.03em;
+            color: #000000;
+        
+        }
+
+        p {
+
+            width: 425px;
+            height: 24px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+           
+        }
+
+
+        .back-button {
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 16px 48px;
+            gap: 10px;
+            width: 254px;
+            height: 56px;
+            left: 572px;
+            top: 642px;
+            background: #DB4444;
+            border-radius: 4px;
+            color:white;
+            text-decoration:none;
+            border:none;
+            margin-top:30px;
+            margin-right:40px;
+        }
+
+        .content {
+            /* Frame 867 */
+            /* Auto layout */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px;
+            gap: 20px;
+            width: 829px;
+            height: 179px;
+            left: 306px;
+            
+        }
+
+
+        .PositionPage{
+            position:relative;
+            left:120px;
+            margin-bottom:100px;
+        }
+        .PositionPage .Home{
+            opacity:0.5;
+        }
+        @media (max-width: 768px) {
+            .breadcrumb {
+                font-size: 32px;
+                top: 80px;
+            }
+
+            h1 {
+                font-size: 80px;
+            }
+
+            p {
+                font-size: 24px;
+            }
+
+            .back-button {
+                font-size: 32px;
+                padding: 40px 64px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .breadcrumb {
+                font-size: 40px;
+                top: 96px;
+            }
+
+            h1 {
+                font-size: 120px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            .back-button {
+                font-size: 40px;
+                padding: 48px 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="Header"></header>
+    <div class="PositionPage"><span class="Home">Home</span><span> / </span><span>404 Error</span></div>
+    <main>
+        <div class="content">
+            <div>  <h1>404 Not Found</h1> </div>
+        </div>
+        <div>
+            <p>Your visited page not found. You may go home page.</p>
+        </div>
+        
+            <button class="back-button">Back to home page</button>
+
+    </main>
+    <footer id="footer"></footer>
+    <script src="js/Headers.js"></script>
+    <script src="js/Footer.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+﻿.top-header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    height: 48px;
+}
+
+    .top-header .announcement a {
+        color: white;
+        font-weight: bold;
+    }
+
+.language-dropdown {
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+}
+
+    .language-dropdown .dropbtn {
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .language-dropdown .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #333;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        top: 100%;
+        right: 0;
+    }
+
+        .language-dropdown .dropdown-content a {
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+        }
+
+            .language-dropdown .dropdown-content a:hover {
+                background-color: #555;
+            }
+
+    .language-dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .language-dropdown .arrow {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+
+/*-----------------------------Secoundheader--------------------------------------------*/
+
+.Secoundheader {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 96px;
+    border-bottom: 0.10px solid black;
+    margin-bottom: 80px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color:black;
+    text-decoration:none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+    nav ul li {
+        position: relative;
+        margin: 0 15px;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav ul li .SignUp {
+            text-decoration: auto;
+            color: #333;
+            font-weight: bold;
+        }
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+    .search-bar input {
+        border: none;
+        padding: 8px;
+        width: 250px;
+        background-color: #f8f8f8;
+    }
+
+.IconHeader {
+    width: 128px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+    .IconHeader a {
+        width: 32px;
+        height: 32px;
+    }
+
+        .IconHeader a img {
+            object-fit: cover;
+            width: 32px;
+            height: 32px;
+        }

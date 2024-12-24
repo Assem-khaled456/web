@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mina yousef" />
+    <link rel="stylesheet" href="./css/Headers.css" />
+    <link rel="stylesheet" href="./css/Footer.css" />
+    <title>Mina Page </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+      
+
+        .Landing {
+            height: 781px;
+            margin: 50px 0px 80px 0;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+
+            .Landing .Image {
+                height: 100%;
+                width: 781px;
+            }
+
+        .Image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .InfoLogin {
+            width: 371px;
+            height: 530px;
+            margin-left: 125px;
+            margin-left:300px;
+        }
+
+            .InfoLogin input {
+                display: block;
+                width: 100%;
+                padding: 15px 0 10px 0;
+                margin: 10px 0 10px 0;
+                border: none;
+                border-bottom: solid black 1px;
+            }
+
+
+            .InfoLogin button {
+                padding: 20px 40px 20px 40px;
+                margin-top: 40px;
+                background-color: #DB4444;
+                width: 100%;
+                border: none;
+                color: white;
+                border-radius: 10px;
+            }
+
+            .InfoLogin .SignupwithGoogle {
+                display: flex;
+                padding: 15px 35px 15px 35px;
+                margin-top: 40px;
+                border: solid 1px black;
+                color: white;
+                border-radius: 10px;
+                justify-content: center;
+                margin-bottom: 40px;
+            }
+
+            .InfoLogin div a {
+                text-decoration: none;
+                color: black;
+                align-self: center;
+            }
+
+            .InfoLogin div .LogoGoogle {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+
+            .InfoLogin div img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .InfoLogin a[href="LogIn.html"] {
+                text-decoration: none;
+                color: black;
+                margin: 50px 0 0 50px;
+            }
+        /**---------------------------------------- footer   */
+       
+    </style>
+</head>
+<body>
+    <!---Top Header------------------------------------------>
+    <header id="Header"></header>
+
+    <!---------------landing-------------------->
+    <div class="Landing">
+        <div class="Image"> <img src="public/images\LogIn.jpg" alt="Alternate Text" /></div>
+        <div class="InfoLogin">
+            <h1>Create An Account</h1>
+            <h5>Enter your details below</h5>
+            <form action="/" method="post">
+                <input type="text" name="username" value="" placeholder="Name" required />
+                <input type="text" name="username" value="" placeholder="Email or Phone Number" required />
+                <input type="password" name="pass" value="" placeholder="password" required />
+                <button type="submit">Login</button>
+                <div class="SignupwithGoogle"> <div class="LogoGoogle"> <img src="public/images/Google.png" alt="Alternate Text" /> </div><a href="#">Sign up with Google</a></div>
+                <a href="LogIn.html">Already have account ?  Log in</a>
+            </form>
+        </div>
+    </div>
+    <!------------FooTer------------------------------------------>
+    <footer id="footer"></footer>
+    <script src="js/Headers.js"></script>
+    <script src="js/Footer.js"></script>
+
+</body>
+</html>
+
